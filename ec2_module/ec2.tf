@@ -1,10 +1,10 @@
 resource "aws_instance" "server" {
-  ami           = var.image_id
-  instance_type = var.instance-type
+  ami           = "ami-05fa46471b02db0ce"
+  instance_type = "t2-micro"
   #   instance_count = var.number_of_instances
   tags = {
-    Name        = var.ec2_instance_name
-    Environment = var.env_name
+    Name        = "terraform-ec2"
+    Environment = "Dev"
   }
 }
 
