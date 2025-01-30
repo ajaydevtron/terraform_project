@@ -1,4 +1,3 @@
 provider "aws" {
-  region  = "us-east-1"
-  profile = "default"
+  region = "ap-south-1"  # Change to your desired AWS region
 }
