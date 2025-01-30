@@ -8,7 +8,7 @@ resource "aws_instance" "server" {
   instance_type = "t2.micro"
   #   instance_count = var.number_of_instances
   tags = {
-    Name        = "terraform-ec2"
+    Name        = "ajay-ec2"
     Environment = "Dev"
   }
 }
