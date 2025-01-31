@@ -17,11 +17,6 @@ variable "ec2_instance_name" {
   default     = "test_os"
 }
 
-variable "number_of_instances" {
-  type        = number
-  description = "total number of instances for aws cloud"
-  default     = 1
-}
 
 variable "env_name" {
   type        = string
