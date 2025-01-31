@@ -2,7 +2,7 @@
 variable "image_id" {
   type        = string
   description = "this is image id for aws servers"
-  default     = "ami-0ed9277fb7eb570c9"
+  default     = "ami-05fa46471b02db0ce"
 }
 
 variable "instance-type" {
